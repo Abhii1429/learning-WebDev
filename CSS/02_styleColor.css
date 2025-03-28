@@ -1,0 +1,9 @@
+/* this is for using Color in css */
+h1{
+    background:#000;
+    color: aliceblue;
+}
+.para{
+    background-color: #00ffaa;
+    color: red;
+}

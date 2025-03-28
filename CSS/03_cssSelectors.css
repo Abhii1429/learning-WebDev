@@ -1,0 +1,19 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#main-heading{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+.main-section{
+    background:#adadad;
+    color: green;
+
+}
+p{
+background-color: #efefef;    
+color: rgb(82, 138, 65);
+}
+.para{
+    background-color: aqua;
+}
