@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Exo:ital,wght@0,100..900;1,100..900&family=Poppins:wght@400;500;600&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family:"Poppins", serif;
+}
+header{
+    background-color: #ccc;
+}
+
+.text-color{
+    color: rgb(68, 134, 141);
+}
+.bg-dark{
+    background-color: #aaa;
+}
+.bg-para{
+background-color:#ccc;
+}
+span{
+    background:rgb(194, 147, 194)
+}
