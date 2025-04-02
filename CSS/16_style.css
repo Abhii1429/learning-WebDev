@@ -1,0 +1,14 @@
+/* a{
+    border: 2px solid black;
+    /* margin: 50px; ----> Horizontal only */
+     /* padding: 40px; --->overlapping with other blocks 
+} ---> inline element block */
+
+a{
+    display: inline-block; /* we can control different parameter.*/
+    border: 2px solid black;
+    margin:20px;
+    padding: 15px;
+    width: 150px;
+    height: 100px;
+}
