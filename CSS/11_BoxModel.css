@@ -1,0 +1,28 @@
+h1{
+    border: 10px dotted brown; 
+/* padding-left: 40px; /*provides padding on left side*/
+/* padding-right: 40px;/*provides padding on right side*/
+/* padding-top:40px;/*provides padding from Top side*/
+/* padding-bottom:40px; /*provides padding from Bottom side*/ 
+
+/* padding:40px; equal padding from all side */
+/* padding:20px 40px; --->provides padding 20px from 
+             Top & Bottom each; and 40px from Left & Right */
+
+/* padding: 20px 30px 40px 50px; padding implemented
+               in Clockwise direction in Box Model */
+ padding: 20px;    
+   /* margin-left: 80px;
+   margin-top: 80px;    */
+   /* margin:50px --> provides equal margin of 50px from all sides */
+   /* margin: 30px 40px 50px 60px; */
+
+   /* Margin can implemented same as Padding */
+   
+   width: 500px; /*provides width of heading*/
+   margin: 20px auto; /*adjusts the margin 20px from top & bottom and adjust left & right setting it in center*/
+  
+   text-align:center; /*adjust texts in the center*/
+   background-color:lightblue;
+   /* Background and Border starts from same place */
+} 

@@ -1,0 +1,35 @@
+/* Use of different Selectors */
+/* Universal selector- */
+
+ /* *{
+    color: blue;
+} */
+
+header{ 
+    background-color: #f0ebeb;
+}
+section.my-article{
+    background-color: #f2e9e9;
+}
+header p{
+    color: rgb(32, 205, 218);
+}
+li a{
+    color: red;
+}
+/* section.my-article  h2{
+    color: green; //style gets implemented in all h2 but we want it only on direct child 
+} */
+ section.my-article > h2{
+    color: green;
+} /*Direct child selector or Combinator */
+
+/* h2+p{
+    color: crimson;
+}*/  /*Adjacent selector: it reflected on adjacent elements only */
+ul+p{
+    color: rgb(129, 112, 15);
+}
+section.my-article h2+p{
+    color: orangered;
+}

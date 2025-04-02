@@ -1,0 +1,20 @@
+/* Inline style attribute > ID selector > Class selector > Element Selector */
+
+/* How to calculate specificity: _,_,_,_ 4Numbers*/
+div#container ul.my-songs li{
+    color:brown;
+    background-color: yellow;
+} /* 0, 1, 1, 3 --->specificity : 113*/
+
+ /* .favourite{
+    color: yellow;
+    background-color: brown;
+  }  */
+  /* 0, 0, 1, 0---> Specificity= 10 */
+
+/* Specificity 113 > 10 that's why 1st one overrides style of other.  */
+div#container ul.my-songs li.favourite{
+    color: yellow;
+    background-color: brown;
+}
+/* 0, 1, 2, 3 ---> 123 */

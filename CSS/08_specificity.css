@@ -1,0 +1,17 @@
+/* Inline style Attribute > ID selector > Class selector > Element selector */
+h1{
+    color: aqua;
+}
+/* .heading{
+    color: magenta;
+} */
+h1.heading{
+    color: magenta;
+} /* 0, 0, 1, 1  --->11*/
+.h1class{
+    color: burlywood;
+} /*0, 0, 1, 0 --->1 */
+
+/* h1id{
+    color: brown !important; (!imp keyword overrides the hierarachy) 
+}    */

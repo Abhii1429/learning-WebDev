@@ -1,0 +1,27 @@
+/* Attribute Selectors */
+/* input[type="text"]{  
+    color: blue;
+    background-color: #eee;
+}  style for text */
+input[type="password"]{ /* style for password*/
+    color: red;
+    background-color: bisque;
+}
+/*highlights the linked text on webpage*/
+/* a[href="https://www.google.co.in/"]{
+   color: red;
+} */
+
+/* a[href *="google"]{ 
+    color: red;
+}  *= it selects the given words from the hrefs entered */
+  
+/* a[href ^="https"]{  ^ : Carot symbol
+    color: green;
+  }  this makes all links green which contains https*/
+    a[href $=".com"]{
+        color: red;
+    }
+     input[type ^="t"]{ /* style is implemented where t appreared in text */
+        color: rgb(92, 66, 238);
+    }

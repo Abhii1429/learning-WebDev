@@ -1,0 +1,26 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #444;
+}
+/* -------- Block level element ------- */
+h1,h2{
+    border: 2px solid #222;
+    width: 300px;
+    height: 100px;
+    /* display: inline; */ /*Converts Block level inti Inline element*/
+}
+
+h1{
+    /* margin: 100px; */
+    /* padding: 50px; */
+}
+/* ------ Inline element --------- */
+a{
+    border: 2px solid#222;
+    height: 100px;
+    width: 100px; /*Height amd width attribute dooes not works in Inline elements*/
+
+    /* margin: 100px; ---> Only Left & Right margin is supported */
+     padding: 0 50px ; /*Top-bottom margin messed up the contents*/
+     /* display: block; */
+}
