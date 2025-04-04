@@ -1,0 +1,20 @@
+h1{
+    background-color: lightblue;
+    /* text-align: center */
+    width: 500px;
+    /* text-align: center; */
+    text-align: right;
+    padding-right: 10px;
+}
+
+/* a{ --->inline element
+    background-color: lightcoral;
+    /* text-align: center;--> No impact because  it's inline element
+} */
+
+a{
+    display: inline-block; 
+    width: 500px;
+    background-color: lightcoral;
+   text-align: center;
+}
