@@ -1,0 +1,21 @@
+/*Pseudo-classes:--> Link, visited, hover, active  */
+a:link{
+    color: orange;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: green;
+}
+a:active{
+    color: black;
+}
+/* Above 4 pseudo-classes should be written in the same order */
+/* ----------------------------------- */
+p:hover{
+    color: green;
+}
+p:active{
+    background-color:lightcoral;
+}
