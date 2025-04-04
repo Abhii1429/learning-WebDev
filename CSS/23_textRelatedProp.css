@@ -1,0 +1,13 @@
+h1{
+    letter-spacing: 4px;
+    font-size: 40px;
+    text-decoration: underline solid red;
+    /* text decorations type :--> [Underline;Overline, line-through],[Dotted;Wavy] */
+}
+p{
+    /* font-size: 16px;-->Default size */
+    font-size: 18px;
+    line-height: 30px;
+    word-spacing: 8px;
+    letter-spacing: 2px;
+}
