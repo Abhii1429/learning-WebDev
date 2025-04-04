@@ -1,0 +1,15 @@
+p{
+  /* font-weight: normal; */
+  /* font-weight: 400; --> both are same and default value */
+}
+h1{
+    /* font-weight: bold; */
+    /* font-weight: 700; */
+    /* Above are default values for H1 */
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+p{
+   font-weight: 600;
+   font-style:italic;
+}
