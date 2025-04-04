@@ -1,0 +1,9 @@
+input:focus{
+    padding: 5px;
+    /* outline: none; ---> eliminates the outline appeared due to style */
+    border: 4px solid blue;
+    background-color: lightcoral;
+}
+input:required{
+    color: green;
+}
