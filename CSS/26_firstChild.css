@@ -1,0 +1,7 @@
+ p:first-child{ /*---> (Aisa vo sare P child; jo apne parent ka 1st child ho) */
+   color: red; 
+}
+ 
+/*p:first-of-type{ parent ke total childs me se sabse pahla vala P*/
+    /* color: green;
+} */
