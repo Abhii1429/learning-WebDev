@@ -1,0 +1,42 @@
+/* :not(p){
+    color: blue;
+} ---> Makes whole body of blue color as it is inhereting properties from body*/
+
+/* body :not(p){
+    color: blue;
+}  space is mandatory after space*/
+
+/* body :not(.fancy){
+    color: blue;
+    background: #ddd;
+}
+div:empty{
+    background: #222;
+    border: 2px solid red;
+    height: 100px;
+    width: 100px;
+} */
+
+ /* :root{
+    background: #333;
+    color: #eee;
+ } */
+
+ /* html{
+    background: red;
+    color: white;
+ } */ 
+
+ /*0. :root is used to make variable in css.
+
+  1. Specificity of :root >> html. */
+
+ /* 2.Specificity of htm is equivalent to that of element but; :root is equal to that of class */
+
+ /* 3. We use <body> tag in place of above two */
+ 
+ 
+  body{
+    background: #333;
+    color: #eee;
+  }
