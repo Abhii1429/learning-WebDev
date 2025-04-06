@@ -1,0 +1,27 @@
+.cool::before{
+    content: 'hello ';
+    display: block;
+    color: green;
+    border: 1px dotted black;
+    margin:5px;
+    padding: 5px;
+}
+/* Note-:
+1. "content" property is mandatory to use ; it will
+   be used with ::before & ::after pseudo elements
+2.  by default, content is an inline element
+3.  Pseudo-element cannot be used with "<img>.<br>,<input> elements; 
+  they can be used only with those elements which contains content */
+
+.cool::after{
+    content: 'hello ';
+    display: block;
+    color: green;
+    border: 1px dotted black;
+    margin:5px;
+    padding: 5px;
+}
+.main-heading::before{
+    content: 'hello ';
+    color: red;
+}
