@@ -1,0 +1,22 @@
+p::first-letter{
+    font-size: 30px
+}
+/* p::first-line{
+    font-size: 30px;
+} --> used very less */
+
+/* First letter and First line pseudo elements works with Block level elements only */
+
+/* p::selection{
+    background-color: black;
+    color: aliceblue;
+} */
+/* h1::selection{
+    background-color: black;
+    color: aliceblue;
+} */
+::selection{
+    background: black;
+    color: aliceblue;
+}
+/* this style over all contents */
