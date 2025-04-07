@@ -1,0 +1,16 @@
+div{
+    border: 2px solid red;
+    font-size: 20px;
+    /* No increase in size because,Percentage(%) is compared with its Parent element(here parent is "div" and child is "p" tag) */
+    width: 50%;
+}
+p{
+    border: 1px solid blue;
+    /* font-size: 100%; */
+    width: 50%;/*it becomes half of its parent width*/
+    background: lightblue;
+    margin: 10px auto;
+    /* margin-left: 25px; */
+    text-align: center;
+}
+/* % is mostly used to provide width to the elements to make it responsive in web  */
