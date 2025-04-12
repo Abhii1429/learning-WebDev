@@ -1,0 +1,28 @@
+/* REM multiplies the size of given element w.r.t root element(html or :root) */
+
+html{
+    /* font-size: 10px; */
+     /*now 2rem implies that box1(child) element have 20px*/
+
+     font-size: 62.5%;
+
+     /* 16px ---> 100%
+       10px ---> (100/16)*10 % ==62.5%
+       this(using 62.5%) makes website responsive. */
+}
+/* :root{
+    font-size:10px;
+} 
+    :root and html bot are same, just :root have more specificity  */
+
+.box1{
+    font-size: 2rem;
+    
+    /*2rem implies that font size have become 2 times of the default size(16px)*/
+}
+.text-content{
+    font-size: 3rem;
+    border: 1rem solid red;
+    margin: 0.5re;
+    padding: 4.5rem; 
+}
