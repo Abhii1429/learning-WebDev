@@ -1,0 +1,14 @@
+/* ---em Relative unit */
+h1{
+    font-size: 2em;/*Relative to parent element's font size i.e. 2em == 2 times the size of font of parent element*/
+
+    border: 0.5em solid lightblue;
+    padding: 0.5em;
+    /* for other properties other than font-size; em will be relative to element's own font-size */
+}
+
+.box1{
+    font-size: 20px;
+    /* parent element(.box1) have font-size-20px that's why h1 inside it have font-size of 40px  */
+}
+
