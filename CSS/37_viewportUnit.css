@@ -1,0 +1,22 @@
+/* --- Viewport Unit --- */
+h2{
+    border: 4px solid red;
+    width: 20em; 
+    /* !!---- Viewport width --> vw ------!! */
+    width: 50vw;
+}
+
+
+.box{
+    border: 4px solid red;
+    width: 50%;
+    padding: 5px;
+    background-color: cadetblue;
+}
+
+h1{
+    border: 2px solid green;
+    /* width: 50%; --. 50% width of it's parent */
+    width: 60vw;
+    /* Now it won't care about it's parent's width but, it's width will be according to viewport */
+}   
