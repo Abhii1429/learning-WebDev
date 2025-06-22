@@ -1,4 +1,9 @@
 //template string
+// used for :
+// ✅Multi-line strings
+// ✅ String interpolation (inserting variables and expressions)
+// ✅ HTML templates or dynamic string generation
+
 
 let age = 22;
 let firstName = "abhishek";
