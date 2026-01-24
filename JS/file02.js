@@ -1,5 +1,8 @@
 "use strict";
 //Intro to Variable
+//variable - container to store data/value
+
+
 
 //declare a variable
 var firstName = "Abhishek";
