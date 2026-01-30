@@ -1,4 +1,4 @@
-// String concatenation:
+// String concatenation: 
 // it is used to combine two or more strings together.
 
 // let string1 = "abhishek";
