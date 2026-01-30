@@ -1,20 +1,4 @@
-// "typeof" operator :
-
-// it is used to know the data type of a variable or value
-
-// data types in js:
-// 1. Primitive data types:
-//    a. number => 2, 4. 5.6
-//    b. string => "abhishek"
-//    c. boolean => true/false
-//    d. undefined => a variable which is declared but not assigned any value   
-//    e. null => represents "no value" or "empty value"
-//    f. symbol => used to create unique identifiers
-//    g. Bigint => used to represent integers larger than "2^53 - 1"
-
-// 2. Non-primitive data types:
-//    a. object
-//---------------------------------
+// "typesof" operator
 
 // let age = 22;
 // let firstName = "abhishek";
@@ -24,9 +8,8 @@
 
 // convert number to string :
 
-// console.log( typeof (age + "")); // output: string
-// parenthesis after typeof is not mandatory
-// --------------------------------
+// console.log( typeof (age + "")); //string
+//parenthesis after typeof is not mandatory
 
 //convert string to number
 
