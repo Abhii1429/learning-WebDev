@@ -1,4 +1,4 @@
-// template string :
+// Template string :
 
 // it is enclosed by backticks (` `) instead of single or double quotes.
 // ${ } syntax is used to embed expressions within the string which 
