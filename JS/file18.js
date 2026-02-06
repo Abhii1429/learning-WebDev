@@ -1,5 +1,13 @@
-//if
-//else if
+// if
+// else if...
+// else
+
+// if one condition is true, then corresponding block will be executed  and then the control will come out of the entire if-else ladder.
+// if none of the conditions is true, then the control will come out of the entire if-else ladder.
+// only one block(first true condition's block) will be executed in the entire if-else ladder.
+// once a condition is found true, rest of the conditions will not be checked.
+// conditions are checked from top to bottom.
+
 let tempInDegree = 45;
 
 // if(tempInDegree < 0){
