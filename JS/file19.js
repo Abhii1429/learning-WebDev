@@ -1,4 +1,21 @@
-//switch statement
+// switch statement:
+
+// it is an alternative to if-else-if ladder, when we have to compare the same variable with different values
+//  syntax:
+// switch(variable){
+//     case value1:
+//         // code block
+//         break;
+//     case value2:
+//         // code block
+//         break;
+//     ...
+//     default:
+//         // code block
+// }
+
+// break keyword is used to exit from the switch statement once a case is matched and its code block is executed.
+// if break is not used, then the control will continue to the next case and its code block will also be executed (fall through behavior).  
 
 let day = 5;
 
