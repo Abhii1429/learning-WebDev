@@ -6,7 +6,9 @@ let age = 18;
  }else{
     console.log("User can play Temple Run");
  }
+//----------------------
 
+// odd even program
 
  let num = 13;
  if(num%2 === 0){
@@ -14,3 +16,12 @@ let age = 18;
  }else{
     console.log("odd");
  }
+//----------------------
+
+//falsy values:
+
+// false
+// " "
+//null
+// undefined
+// 0
