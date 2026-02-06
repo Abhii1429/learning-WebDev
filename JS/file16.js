@@ -1,4 +1,7 @@
-// and(&&) or(||) operator
+// &&(and); or(||) operator:
+
+// both conditions should be true for && operator to execute the if block
+// at least one condition should be true for || operator to execute the if block    
 
 let firstName = "Abhishek";
 let age = "12";
@@ -11,13 +14,13 @@ let age = "12";
 //     console.log("you are above 18");
 // }
 
-// if(firstName[0] === "A" && age > 18){
+// if(firstName[0] === "A" && age > 18){ // && operator
 //     console.log("Name starts with A and above 18");
 // }else{
 //     console.log("inside else");
 // }
 
-if(firstName[0] === "A" || age > 18){
+if(firstName[0] === "A" || age > 18){ // || operator
     console.log("inside if");
 }else{
     console.log("inside else");
