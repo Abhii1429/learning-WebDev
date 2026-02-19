@@ -8,6 +8,8 @@
 // once a condition is found true, rest of the conditions will not be checked.
 // conditions are checked from top to bottom.
 
+//Example:
+
 let tempInDegree = 45;
 
 // if(tempInDegree < 0){
