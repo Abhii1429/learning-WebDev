@@ -11,6 +11,7 @@ while(i<=10){
 }
 console.log(total);
 
+// fast method to calculate sum of first n natural numbers:
 let n = 100;
 let sum = 0;
 sum = (n*(n+1))/2; // this method is fast
