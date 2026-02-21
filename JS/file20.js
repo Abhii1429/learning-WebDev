@@ -30,7 +30,7 @@
 // i++;  
 
 // DRY => Do Not Reapeat 
-// A/c to dry coding principle, codes should not be repeated
+// A/c to DRY(Don't Repeat Yourself) coding principle, codes should not be repeated
 
 let i = 0;
 

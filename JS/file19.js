@@ -1,6 +1,7 @@
 // switch statement:
 
 // it is an alternative to if-else-if ladder, when we have to compare the same variable with different values
+
 //  syntax:
 // switch(variable){
 //     case value1:
