@@ -1,11 +1,13 @@
 // while loop
 
 // syntax:
+
 // while(condition){
 //     // code
 //     // updation
 // }
 
+// example:
 // print numbers from 0 to 9
 // let i = 0;
 // console.log(i);
