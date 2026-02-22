@@ -6,6 +6,7 @@ let i = 10;
 //     i++;
 // }
 
+
 do{ // do while loop works even when initial condition is wrong
     console.log(i);
     i++;
