@@ -1,5 +1,6 @@
 // for loop example:
 
+
 let total = 0;
  let num = 100;
 
