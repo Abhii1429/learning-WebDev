@@ -1,4 +1,5 @@
-//for in loop in array
+// "for in" loop in array
+
 const fruits = ["apple","mango","grapes","fruit4", "fruit5"];
 
 const fruits2 =[];
@@ -8,8 +9,8 @@ const fruits2 =[];
 // }
 // console.log(fruits2);
 
-// mostly we use for of loop & traditional for loop in js
+// mostly we use "for of" loop & "traditional for loop" in JS
 
-for (let i = 0; i <fruits.length; i++){
+for (let i = 0; i <fruits.length; i++){ // traditional for loop
     console.log(fruits[i]);
 }
