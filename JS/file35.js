@@ -1,4 +1,4 @@
-// Array destructuring
+// Array destructuring :
 
 const myArray = ["value1", "value2","value3", "value4"];
 
@@ -13,7 +13,7 @@ const myArray = ["value1", "value2","value3", "value4"];
 
 // const [myvar1, myvar2] = myArray; // if const is used these starts to behave as const variables.
 
-// let [myvar1, myvar2, , myvar3] = myArray;
+// let [myvar1, myvar2, myvar3] = myArray;
 
 
 // let myNewArray = myArray.slice(2);// creating a new array out of given
