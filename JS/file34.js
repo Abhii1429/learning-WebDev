@@ -1,4 +1,4 @@
-// "for in" loop in array
+// "for in" loop in Array
 
 const fruits = ["apple","mango","grapes","fruit4", "fruit5"];
 
