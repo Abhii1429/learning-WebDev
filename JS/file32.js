@@ -1,4 +1,5 @@
-//while loop in array
+// while loop in array
+
 const fruits =["apple", "mango", "grapes"];
 
 const fruits2 = [];
