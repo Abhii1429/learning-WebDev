@@ -13,7 +13,7 @@ console.log(person);
     console.log(person["age"]);
     console.log(person.hobbies);
 
-// how to add "key value" pair to objects:
+// how to add "key value"a pair to objects:
 
 person["gender"] = "male";
 console.log(person);
