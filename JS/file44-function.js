@@ -43,7 +43,7 @@ const sumThreeNumber = function(number1, number2, number3){ // this function and
     return number1 + number2 + number3;
 }
 
-const returnedValue1 = sumThreeNumbers(9,2, 5); // 9,2,5 => arguments
+const returnedValue1 = sumThreeNumber(9,2, 5); // 9,2,5 => arguments
 console.log(returnedValue1); // 16
 
 // console.log(2 + 3 + undefined); // output=> NaN
