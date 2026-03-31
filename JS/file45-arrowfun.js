@@ -1,4 +1,5 @@
 // Arrow function:
+
 // - Arrow function is a shorter syntax for writing function expressions.
 
 // function singHappyBirthday(){ 
