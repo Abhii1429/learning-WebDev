@@ -25,7 +25,7 @@ function myApp(){
         const myFunc2 = () => {
             console.log("inside myFunc", myVar);
         }
-        myFunc2();
+        myFunc2(); // lexical chaining is being done here
     }
     console.log(myVar);
     myFunc();
