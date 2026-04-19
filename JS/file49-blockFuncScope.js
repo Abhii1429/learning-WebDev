@@ -49,9 +49,10 @@ function myApp(){
         var firstName = "harshit"; 
         console.log(firstName);
     }
-    console.log(firstName); // using let or const, wew cannot access this var here.
+    console.log(firstName); // using let or const, we cannot access this var here.
     if(true){
         console.log(firstName);
     }
+    console.log(firstName);
 }
 myApp();
