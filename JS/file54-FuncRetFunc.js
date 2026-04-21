@@ -1,4 +1,4 @@
-// Function returning function:;
+// Function returning function:
 
 // function myFunc(){
 //     // return a;
